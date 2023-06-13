@@ -1,0 +1,164 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+nav {
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav img {
+    float: left;
+    height: 50px;
+    padding: 9px;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    /*display: inline;*/
+    margin: auto;
+    float: right;
+    padding-right: 10px;
+
+
+}
+
+nav li {
+    display: inline;
+    float: left;
+    margin: auto 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 20px;
+
+}
+
+nav li a{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+header {
+    background: url(resources/pictures/img-mission-background.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1200px;
+    text-align:  center;
+    margin: auto;
+
+}
+
+header .mission {
+    /*vertical-align: center;*/
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    width: 1200px;
+    padding: 10px;
+}
+
+header h2 {
+    margin-bottom: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+
+}
+
+.coffee-main {
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pictures-main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.picture-box {
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+.testi {
+    /*margin-bottom: 20px;*/
+    margin: 10px;
+}
+
+.testi figcaption {
+    margin-top: 10px;
+    
+    
+}
+
+.testi img {
+    width: 300px;
+}
+
+.location {
+    background: url(resources/pictures/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    margin: 0 auto;
+}
+
+.contact {
+    height: 200px;
+    padding-top: 20px;
+}
+
+.contact h5 {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+footer {
+    height: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+footer p {
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 20px;
+}
